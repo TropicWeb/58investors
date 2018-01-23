@@ -1,3 +1,23 @@
+<?php  
+  /**
+   *  Script what calculate the difference between actual date and 22 of february
+   */
+
+  //TEST
+  //To test the counter equals $actualDate to a date in AAAA-MM-DD in the line 8 and uncomment it. Comment line 11
+  //$actualDate = '2018-02-15';
+  //
+
+  $actualDate = date('Y-m-d',time()); //Get actual date (string in AAAA-MM-DD)
+  $actualDate = date_create($actualDate); //Set actual date (type DATE)
+  $finalDate = date_create('2018-02-22'); //Set last day (type DATE)
+  $days; //Days left
+  
+  $interval = date_diff($actualDate, $finalDate); //Difference between dates  
+  
+  $days = $interval->d;
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,7 +39,7 @@
 
 <section class="container-fluid cuadroTotal">
   <div id="prueba" class="prueba animated">
-    <p id="prueba2" class="text-center animated postext">30</p>
+    <p id="prueba2" class="text-center animated postext"><?php echo $days; ?></p>
     <p class="text-center dayC"> Days </p>
   </div>
 </section>
