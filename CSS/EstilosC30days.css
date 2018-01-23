@@ -22,6 +22,8 @@ body{
 	right: -235px;
 	border-radius: 10px;
 	border:5px solid black;
+	opacity: 0.5;
+
 }
 
 .postext{
@@ -31,6 +33,7 @@ body{
 	color: blue;
 	position: relative;
 	top: -40px;
+
 }
 
 .dayC{
