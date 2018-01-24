@@ -39,10 +39,16 @@
 <body>
 
 <section class="container-fluid cuadroTotal">
-  <div id="prueba" class="prueba animated">
-    <p id="prueba2" class="text-center animated postext"><?php echo $days; ?></p>
-    <p class="text-center dayC"> DAYS </p>
-  </div>
+	<div class="row sectionCont">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<div id="prueba" class="prueba animated">
+    			<p id="prueba2" class="text-center animated postext"><?php echo $days; ?></p>
+    			<p class="text-center dayC"> DAYS </p>
+    		</div>
+  		</div>		
+  		<div class="col-md-2"></div>
+	</div> 
 </section>
 
 
