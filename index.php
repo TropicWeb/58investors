@@ -41,7 +41,7 @@
 <section class="container-fluid cuadroTotal">
   <div id="prueba" class="prueba animated">
     <p id="prueba2" class="text-center animated postext"><?php echo $days; ?></p>
-    <p class="text-center dayC"> Days </p>
+    <p class="text-center dayC"> DAYS </p>
   </div>
 </section>
 
