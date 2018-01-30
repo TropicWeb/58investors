@@ -11,7 +11,7 @@
 
   $actualDate = date('Y-m-d',time()); //Get actual date (string in AAAA-MM-DD)
   $actualDate = date_create($actualDate); //Set actual date (type DATE)
-  $finalDate = date_create('2018-02-22'); //Set last day (type DATE)
+  $finalDate = date_create('2018-02-28'); //Set last day (type DATE)
   $days; //Days left
   
   $interval = date_diff($actualDate, $finalDate); //Difference between dates  
