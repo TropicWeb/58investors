@@ -30,7 +30,7 @@
   <title>+58INVESTORS</title>
 
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="CSS/EstilosC30days.css">
+  <link rel="stylesheet" href="CSS/EstilosC30days2.css">
   <link rel="stylesheet" href="CSS/animate.css">
 </head>
 
