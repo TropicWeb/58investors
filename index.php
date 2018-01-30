@@ -44,9 +44,9 @@
 			<div id="p1" class="contador animated">
     			<p id="p2" class="text-center animated postext"><?php echo $days; ?></p>
     			<p class="text-center dayC"> DAYS </p>
-    	</div>
-  	</div>		
-  	<div class="col-md-2"></div>
+    		</div>
+  		</div>		
+  		<div class="col-md-2"></div>
 	</div> 
 </section>
 
