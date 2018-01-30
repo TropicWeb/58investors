@@ -80,3 +80,11 @@ body{
 		margin-top: 60px;
 	}
 }
+
+
+@media (max-height: 700px){
+
+	.sectionCont{
+		margin-top: 110px;
+	}
+}
