@@ -11,12 +11,13 @@
 
   $actualDate = date('Y-m-d',time()); //Get actual date (string in AAAA-MM-DD)
   $actualDate = date_create($actualDate); //Set actual date (type DATE)
-  $finalDate = date_create('2018-03-08'); //Set last day (type DATE)
-  $days; //Days left
+  $finalDate = date_create('2018-03-10'); //Set last day (type DATE)
+  $days = 0; //Days left
   
   $interval = date_diff($actualDate, $finalDate); //Difference between dates  
   
-  $days = $interval->d;
+  if($interval->m == 1) $days = 28;
+  $days += $interval->d;
 
 ?>
 <!DOCTYPE html>
